@@ -84,7 +84,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => "https://github.com/sonmezvolkan/SDK/blob/master/SecureSdk.xcframework.zip" }
+  spec.source       = { :http => "https://github.com/sonmezvolkan/SDK/blob/master2/SecureSdk.xcframework.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -138,8 +138,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
-   spec.dependency 'SDWebImage'
    spec.vendored_frameworks = "SecureSdk.xcframework"
 
 end
