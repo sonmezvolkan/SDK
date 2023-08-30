@@ -84,7 +84,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/sonmezvolkan/SDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :http => "https://github.com/sonmezvolkan/SDK/blob/master/SecureSdk.xcframework.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
