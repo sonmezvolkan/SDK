@@ -1,0 +1,80 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "SecureSdkContainer",
+        "printedName": "SecureSdkContainer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SecureSdkContainer",
+                "printedName": "SecureSdk.SecureSdkContainer",
+                "usr": "s:9SecureSdk0aB9ContainerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9SecureSdk0aB9ContainerCACycfc",
+            "mangledName": "$s9SecureSdk0aB9ContainerCACycfc",
+            "moduleName": "SecureSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sum",
+            "printedName": "sum(firstValue:secondValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SecureSdk0aB9ContainerC3sum10firstValue06secondF0S2i_SitF",
+            "mangledName": "$s9SecureSdk0aB9ContainerC3sum10firstValue06secondF0S2i_SitF",
+            "moduleName": "SecureSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9SecureSdk0aB9ContainerC",
+        "mangledName": "$s9SecureSdk0aB9ContainerC",
+        "moduleName": "SecureSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
