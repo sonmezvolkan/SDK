@@ -13,7 +13,6 @@ Pod::Spec.new do |spec|
    spec.swift_version = '5.0'
 
   spec.source       = { :http => "https://staging.musicaseservice.me/SecureSdk.xcframework.zip" }
-   spec.dependency 'SDWebImage'
    spec.vendored_frameworks = "SecureSdk.xcframework"
 
 end
